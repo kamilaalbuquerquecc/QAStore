@@ -1,4 +1,4 @@
-package br.com.QAStore.auxiliares;
+package br.com.QAStore.utils;
 
 import java.sql.Timestamp;
 import java.text.SimpleDateFormat;

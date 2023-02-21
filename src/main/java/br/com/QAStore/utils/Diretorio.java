@@ -1,4 +1,4 @@
-package br.com.QAStore.auxiliares;
+package br.com.QAStore.utils;
 
 import java.io.File;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package br.com.QAStore.auxiliares;
+package br.com.QAStore.core;
 
 import java.io.File;
 import java.io.IOException;
@@ -8,6 +8,8 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
 import com.google.common.io.Files;
+
+import br.com.QAStore.utils.Diretorio;
 
 public class Screen {
 
