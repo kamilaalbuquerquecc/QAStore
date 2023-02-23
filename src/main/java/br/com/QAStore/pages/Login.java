@@ -37,6 +37,7 @@ public class Login {
 		driver.get(url);
 		
 		Thread.sleep(2000);	
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		Assert.assertEquals("Faça o seu login ou crie uma conta caso ainda não possua cadastro",driver.findElement(By.xpath((String.valueOf(e.hearderLogin)))).getText());
 		Screen.take(driver,  DataHoraScreen.dataHoraArquivo() + "Login_QAStore.png");
 		
