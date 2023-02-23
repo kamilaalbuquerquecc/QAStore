@@ -5,11 +5,12 @@ Funcionalidade: Cupom
 		Pré-condição: Usuário fez login no sistema
 		Dado o usuário na interface de carrinho do sistema
 		E este tem um produto adicionado
+		E este inseriu o CEP
 		
 		Cenário: Inserir cupom [FRETEGRATIS]para carrinho com um produto
 			Quando inserir o cupom “FRETEGRATIS”
 			Então reflete o cupom no carrinho
-			E o frete na modalidade SEDEX fica gratis.
+			E o frete de envio fica gratis.
 			
 		Cenário: Inserir cupom [10OFF]para carrinho com um produto
 			Quando inserir o cupom “10OFF”
@@ -41,11 +42,12 @@ Funcionalidade: Cupom
 		Pré-condição: Usuário fez login no sistema
 		Dado o usuário na interface de carrinho do sistema
 		E este dois ou mais produtos adicionados
+		E este inseriu o CEP
 		
 		Cenário: Inserir cupom [FRETEGRATIS]para carrinho com multiplos produtos
 			Quando inserir o cupom “FRETEGRATIS”
 			Então reflete o cupom no carrinho
-			E o frete na modalidade SEDEX fica gratis.
+			E o frete de envio fica gratis.
 			
 		Cenário: Inserir cupom [10OFF] para carrinho com multiplos produtos
 			Quando inserir o cupom “10OFF”
@@ -57,7 +59,7 @@ Funcionalidade: Cupom
 			Então reflete o cupom no carrinho
 			E o desconto 30 reais é aplicado para os produtos.
 			
-		Cenário: Inserir cupom [20LIMITADO]para carrinho com um produto
+		Cenário: Inserir cupom [20LIMITADO]para carrinho com múltiplos produtos
 			Quando inserir o cupom “FRETEGRATIS”
 			Então não reflete o cupom no carrinho
 			E o sistema retorna que cupom não foi encontrado.

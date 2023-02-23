@@ -11,7 +11,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 import br.com.QAStore.utils.Diretorio;
 
-public class Base_Test {
+public class BaseTeste {
 	
 	protected static WebDriver driver;
 	protected Properties properties;

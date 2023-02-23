@@ -28,7 +28,7 @@ Funcionalidade: Finalizar compra
 			E clica sobre o botão Finalizar compra
 			Então a compra é finalizada
 			
-		Cenario: Finalizar compra na modalidade mercado pago
+		Cenario: Finalizar compra na modalidade mercado pagos
 			Quando seleciona a modalidade de pagamento de Boleto Bancário
 			E clica sobre o botão Finalizar compra
 			Então a compra é finalizada

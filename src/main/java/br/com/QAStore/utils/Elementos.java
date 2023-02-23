@@ -3,11 +3,12 @@ package br.com.QAStore.utils;
 public class Elementos {
 	
 	//Login
-	public String heardrLogin = "/html/body/div[3]/div[2]/div/div[1]/div[1]/div/h1/small";
-	public String inputEmail = "//*[@id=\\\"id_email\\\"]";
-	public String inputsenha = "//*[@id=\\\"id_senha\\\"]";
+	public String hearderLogin = "/html/body/div[3]/div[2]/div/div[1]/div[1]/div/h1/small";
+	public String inputEmail = "//*[@id=\"id_email\"]";
+	public String inputSenha = "//*[@id=\"id_senha\"]";
 	public String buttonProsseguir = "/html/body/div[3]/div[2]/div/div[1]/div[2]/div[1]/div/form/fieldset/div[2]/div/button";
-	
+	public String headerMinhaConta = "/html/body/div[3]/div[2]/div/div[2]/div[2]/div/div/div[1]/h3";
+	//"/html/body/div[3]/div[1]/div[2]/div[1]/div[1]/h2/a"
 	//Home
 	public String headerBemVindo = "/html/body/div[3]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]";
 	public String title = "/html/body/div[3]/div[1]/div[2]/div[1]/div[1]/h2/a";
@@ -20,6 +21,7 @@ public class Elementos {
 	public String nameProduto3 = "[ESTOQUE] Produto com estoque gerenciado com quantidade zerada - Continua Vendendo";
 	public String nameProduto4 = "[DIMENSÃO] Produto com altura 101";
 	public String nameProduto5 = "[CORREIOS] Produto com dimensões/peso mínimo dos correios";
+	public String produto = "//*[@id=\"listagemProdutos\"]/ul/li[1]/ul/li[1]/div/a";
 	public String buttonComprar = "/html/body/div[3]/div[2]/div/div[1]/div/div[1]/div[2]/div/div[2]/div[3]/a";
 	
 	//Carrinho
