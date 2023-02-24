@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import org.junit.After;
 import org.junit.Before;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -36,8 +37,8 @@ public class BaseTeste {
 		System.out.println(getProp());
 	}
 	
-	/*@After
+	@After
 	public void finaliza() {
 		driver.quit();
-	}*/
+	}
 }

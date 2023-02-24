@@ -7,5 +7,10 @@ testeCupomFreteGratis,email,senha,cupom
 testeCupom10off,email,senha,cupom
 ,qa.store.lojaintegrada@gmail.com,Teste123,10OFF
 
+
 testeCupomVencido,email,senha,cupom
 ,qa.store.lojaintegrada@gmail.com,Teste123,CUPOMVENCIDO
+
+testeCupomInvalido,email,senha,cupom
+,qa.store.lojaintegrada@gmail.com,Teste123,CUPOMINVALIDO
+

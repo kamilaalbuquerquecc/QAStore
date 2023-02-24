@@ -39,20 +39,27 @@ public class Login {
 		Thread.sleep(2000);	
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		Assert.assertEquals("Faça o seu login ou crie uma conta caso ainda não possua cadastro",driver.findElement(By.xpath((String.valueOf(e.hearderLogin)))).getText());
-		Screen.take(driver,  DataHoraScreen.dataHoraArquivo() + "Login_QAStore.png");
+		
+		Screen.take(driver,  DataHoraScreen.dataHoraArquivo() + "LOGIN.png");
 		
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.findElement(By.xpath((String.valueOf(e.inputEmail)))).sendKeys(email);
 		driver.findElement(By.xpath((String.valueOf(e.inputSenha)))).sendKeys(senha);
 		
-		Screen.take(driver,  DataHoraScreen.dataHoraArquivo() + "Login_QAStore_com_credenciais.png");
+		Screen.take(driver,  DataHoraScreen.dataHoraArquivo() + "LOGIN_COM_CREDENCIAIS.png");
 		
 		driver.findElement(By.xpath((String.valueOf(e.buttonProsseguir)))).click();
 		
 		Thread.sleep(2000);	
 		Assert.assertEquals("Minha Conta Confirme ou edite seus dados cadastrais."
 				,driver.findElement(By.xpath((String.valueOf(e.headerMinhaConta)))).getText());	
+		
+		Screen.take(driver,  DataHoraScreen.dataHoraArquivo() + "DADOS_CLIENTE.png");
+		
 		driver.findElement(By.xpath((String.valueOf(e.title)))).click();
+		
+		Thread.sleep(2000);	
+		Screen.take(driver,  DataHoraScreen.dataHoraArquivo() + "PAGINA_PRINCIPAL.png");
 	}
 
 	

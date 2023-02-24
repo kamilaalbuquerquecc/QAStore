@@ -29,12 +29,20 @@ public class Elementos {
 	public String inputCupom= "//*[@id=\"usarCupom\"]";
 	public String buttonUsarCupom= "//*[@id=\"btn-cupom\"]";
 	public String cupomDesconto = "/html/body/div[2]/div[2]/div/div[1]/div/div[2]/table/tbody/tr[4]/td[1]/div/span";
-	public String valorFrete= "/html/body/div[2]/div[2]/div/div[2]/div/div[2]/table/tbody/tr[4]/td[2]/div/ul/li[2]/label/span[1]";
+	//public String valorFrete1= "/html/body/div[2]/div[2]/div/div[2]/div/div[2]/table/tbody/tr[4]/td[2]/div/ul/li[2]/label/span[1]";
+	public String valorFrete= "/html/body/div[2]/div[2]/div/div[1]/div/div[2]/table/tbody/tr[3]/td[2]/div/ul/li[2]/label/span[1]";
 	public String buttonFinalizar= "/html/body/div[2]/div[2]/div/div[1]/div/form/div/div[1]/button";
-	public String buttonSubtotal = "/html/body/div[2]/div[2]/div/div[1]/div/div[2]/table/tbody/tr[4]/td[2]/div/strong";
-	public String buttonTotal = "/html/body/div[2]/div[2]/div/div[1]/div/div[2]/table/tbody/tr[7]/td/div[1]/strong";
+	
+	//public String buttonSubtotal1 = "/html/body/div[2]/div[2]/div/div[1]/div/div[2]/table/tbody/tr[4]/td[2]/div/strong";
+	public String valorSubtotal=    "/html/body/div[2]/div[2]/div/div[1]/div/div[2]/table/tbody/tr[2]/td[2]/div/strong";
+	//public String buttonTotal1 = "/html/body/div[2]/div[2]/div/div[1]/div/div[2]/table/tbody/tr[7]/td/div[1]/strong";
+	public String valorTotal=       "/html/body/div[2]/div[2]/div/div[1]/div/div[2]/table/tbody/tr[5]/td/div[1]/strong";
 	public String excluirProduto = "/html/body/div[2]/div[2]/div/div[1]/div/div[2]/table/tbody/tr[1]/td[6]/div/a";
+						         
 	public String excluirCupom= "/html/body/div[2]/div[2]/div/div[1]/div/div[2]/table/tbody/tr[4]/td[1]/div/a";
+	public String alert = "/html/body/div[2]/div[2]/div/div[1]";
+	
+	public String x = "/html/body/div[2]/div[2]/div/div[1]/button"; 
 	//FinalizaCompra
 	public String tabelaProdutosCheckout = "/html/body/div[2]/div[2]/div/div[1]/div[1]/div[2]/div/div/div/table";
 	public String pagamentoCartao = "//*[@id=\"radio-cartao\"]";
