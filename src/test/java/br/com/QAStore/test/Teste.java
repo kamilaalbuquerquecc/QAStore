@@ -32,6 +32,7 @@ public class Teste extends BaseTeste {
 		pesquisarEInserirProduto(e.nameProduto1);
 		inserirCupomEExcluirCupomEProduto(cupom);
 		
+		
 	}
 
 	public void testeCupom10off(){
