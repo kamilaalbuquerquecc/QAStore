@@ -14,9 +14,9 @@ import br.com.QAStore.pages.Login;
 import br.com.QAStore.pages.Produto;
 import br.com.QAStore.utils.Elementos;
 
+//Todos os testes automatizdos encontram-se nesta classe.
 @RunWith(DataDrivenTestRunner.class)
 @DataLoader(filePaths = "massa.csv")
-
 public class Teste extends BaseTeste {
 
 	Elementos e = new Elementos();

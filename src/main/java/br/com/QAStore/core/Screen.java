@@ -11,6 +11,7 @@ import com.google.common.io.Files;
 
 import br.com.QAStore.utils.Diretorio;
 
+//Classe responsavel pela funcionalidade de capturar screens
 public class Screen {
 
 	public static void take(WebDriver driver, String arquivo) throws IOException {

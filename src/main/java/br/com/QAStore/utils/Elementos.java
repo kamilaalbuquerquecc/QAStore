@@ -1,5 +1,6 @@
 package br.com.QAStore.utils;
 
+//Classe que contem todos os elementos em XPath mapeados.
 public class Elementos {
 	
 	//Login

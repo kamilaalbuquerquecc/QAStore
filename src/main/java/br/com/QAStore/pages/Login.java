@@ -11,6 +11,7 @@ import br.com.QAStore.utils.DataHoraScreen;
 import br.com.QAStore.utils.Elementos;
 import junit.framework.Assert;
 
+//Classe com metoddos das ações sobre o login
 public class Login {
 
 	Elementos e = new Elementos();

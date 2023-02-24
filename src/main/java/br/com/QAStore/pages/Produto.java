@@ -10,7 +10,7 @@ import br.com.QAStore.core.Screen;
 import br.com.QAStore.utils.DataHoraScreen;
 import br.com.QAStore.utils.Elementos;
 
-
+//Classe com metoddos das ações sobre o produto
 public class Produto {
 	Elementos e = new Elementos();
 	public static WebDriver driver;

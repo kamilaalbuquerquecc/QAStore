@@ -12,6 +12,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 import br.com.QAStore.utils.Diretorio;
 
+//Classe base usado em todos @Test, o pré e pos automação
 public class BaseTeste {
 	
 	protected static WebDriver driver;
