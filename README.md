@@ -24,7 +24,11 @@ Maven 4
 ```
 ## Features
 
+- [ ] Cadastro
 - [x] Login
+- [x] Busca produtos
 - [x] Adiciona produtos no carrinho
 - [x] Insere cupom no carrinho
-
+- [x] Exclui cupom do carrinho
+- [x] Exclui produtos do carrinho
+- [ ] Finalizar compra
