@@ -1,0 +1,8 @@
+testeLogin,email,senha
+"",qa.store.lojaintegrada@gmail.com,Teste123
+testeCupomFreteGratis,email,senha,cupom,Duration(ms),Duration(ms),Duration(ms),Duration(ms),Duration(ms),Duration(ms),Duration(ms),Duration(ms),Duration(ms),Duration(ms),Duration(ms),Duration(ms)
+"",qa.store.lojaintegrada@gmail.com,Teste123,FRETEGRATIS,12822.0,12822.0,12822.0,12822.0,12822.0,12822.0,12822.0,12822.0,12822.0,12822.0,12822.0,12822.0
+testeCupom10off,email,senha,cupom
+"",qa.store.lojaintegrada@gmail.com,Teste123,10OFF
+testeCupomVencido,email,senha,cupom
+"",qa.store.lojaintegrada@gmail.com,Teste123,CUPOMVENCIDO
