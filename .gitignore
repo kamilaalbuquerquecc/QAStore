@@ -1,4 +1,5 @@
-
+/target/class
+/target/test-classes
 
 # Compiled class file
 *.class

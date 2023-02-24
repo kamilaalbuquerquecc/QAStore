@@ -33,7 +33,8 @@ public class Elementos {
 	public String buttonFinalizar= "/html/body/div[2]/div[2]/div/div[1]/div/form/div/div[1]/button";
 	public String buttonSubtotal = "/html/body/div[2]/div[2]/div/div[1]/div/div[2]/table/tbody/tr[4]/td[2]/div/strong";
 	public String buttonTotal = "/html/body/div[2]/div[2]/div/div[1]/div/div[2]/table/tbody/tr[7]/td/div[1]/strong";
-	
+	public String excluirProduto = "/html/body/div[2]/div[2]/div/div[1]/div/div[2]/table/tbody/tr[1]/td[6]/div/a";
+	public String excluirCupom= "/html/body/div[2]/div[2]/div/div[1]/div/div[2]/table/tbody/tr[4]/td[1]/div/a";
 	//FinalizaCompra
 	public String tabelaProdutosCheckout = "/html/body/div[2]/div[2]/div/div[1]/div[1]/div[2]/div/div/div/table";
 	public String pagamentoCartao = "//*[@id=\"radio-cartao\"]";
