@@ -1,6 +1,6 @@
-/target/class
-/target/classes
-/target/test-classes
+/target/class/
+/target/classes/
+/target/test-classes/
 
 # Compiled class file
 *.class
