@@ -11,7 +11,7 @@ public class Diretorio {
 	public static void criaDiretorio() throws IOException {
 		// Cria Diretorio para cada vez que o teste é executado
 		try {
-			nomePasta = "Evidência" +  DataHoraScreen.dataHoraArquivo();
+			nomePasta = "Evidencia" +  DataHoraScreen.dataHoraArquivo();
 			File pasta = new File(System.getProperty("user.dir") +"\\target\\Screenshot\\" +"//"+ nomePasta);
 			pasta.mkdir();
 			 
